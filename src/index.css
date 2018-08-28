@@ -1,0 +1,64 @@
+.Menu {
+  display: inline-flex;
+  vertical-align: baseline;
+}
+.navlink {
+  text-decoration: none;
+}
+a {
+  text-decoration: none;
+}
+.menu-services {
+  display: flex;
+  flex-direction: column;
+}
+.menu-services:hover .sous-menu {
+  display: block;
+}
+.sous-menu {
+  display: none;
+  position: absolute;
+  background-color: #b4af91;
+  width: 160px;
+  box-shadow: 5px 10px #888888;
+  z-index: 1;
+}
+.sous-menu a {
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+a {
+  color: white;
+}
+.sous-menu a:hover {
+  background: #40411e;
+  color: white;
+}
+
+.navlink-home {
+  background-color: #0d0d0e8a;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  text-decoration: none;
+  border-radius: 10px 0px 0px 10px;
+}
+.navlink-services {
+  background-color: #389488;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  text-decoration: none;
+}
+.navlink-contact {
+  background-color: black;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  border-radius: 0px 10px 10px 0px;
+  text-decoration: none;
+}
